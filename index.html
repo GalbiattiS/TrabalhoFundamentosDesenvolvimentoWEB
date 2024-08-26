@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentacao</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #624b69;
+    margin: 0;
+    padding: 0;
+}
+
+.Sobre {
+    text-align: center; /* Alinha o texto à esquerda */
+    margin: 0 auto; /* Centraliza o bloco na página */
+    width: 75%; /* Define uma largura para o bloco, você pode ajustar conforme necessário */
+    font-weight: 700; /* colocado em negrito os termos */
+    font-size: 25px; /* tamanho dos termos */
+}
+
+table {
+    width: 100%; /* Faz a tabela ocupar toda a largura da div */
+    border-collapse: collapse; /* Remove espaços entre as células */
+}
+
+td {
+    padding: 8px;
+    
+}
+
+.container {
+    max-width: auto;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #816494;
+    box-shadow: 0 0 10px rgba(221, 219, 219, 0.1);
+    text-align: center;
+    border: 2px solid black;
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #e6dede;
+}
+
+.hobbies-gallery {
+    display: flex;
+    gap: 10px; /* Espaço entre os itens da lista */
+}
+
+.hobbies ul {
+    display: flex;
+    list-style-type: disc; /* Mantém os marcadores */
+    padding: 0;
+    margin: 0;
+    gap: 150px; /* Espaço entre os itens da lista */
+}
+
+.hobbies ul li {
+    white-space: nowrap; /* Impede a quebra de linha nos itens da lista */
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens ocupem múltiplas linhas, se necessário */
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.image-pessoal img {
+    width: 60%; /* Faz a imagem ocupar todo o espaço do container */
+    height: 40%; /* Mantém a proporção da imagem */
+}
+.image-container {
+    flex: 1; /* Faz com que cada imagem ocupe o mesmo espaço disponível */
+    width: 200px; /* Define uma largura máxima para as imagens */
+}
+
+.image-container img {
+    width: 100%; /* Faz a imagem ocupar todo o espaço do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.content {
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+            color: black; /* Cor do link não visitado */
+        }
+
+a:visited {
+            color: black; /* Cor do link visitado */
+        }
+
+a:hover {
+            color: white; /* Cor do link ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1><i>Sobre</i></h1>
+    <h1><i><a href='index2.html'>Formação Acadêmica</a></i></h1>
+    <h1><i><a href='https://galbiattis.github.io/SiteGitFundamentosWeb/'>Portifólio</a></i></h1>
+    <h1><i><a href='index3.html'>Contato</a></i></h1>
+
+    <div class="content">
+        <h2>Adneliton Galbiatti da Silva</h2>
+        <div class="image-pessoal">
+            <img src="adneliton.jpg" alt="Sua imagem">
+        </div>
+        <div class="Sobre">
+        <table>
+            <tr>
+                <td>Brasileiro</td>
+                <td>Casado</td>
+                <td>30 anos</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Hobbies</h2>
+        <div class="hobbies-gallery">
+        <div class="hobby-item">
+            <h3>Automobilismo</h3>
+            <div class="image-container">
+                <img src="automobilismo.jpg" alt="Automobilismo">
+            </div>
+        </div>
+        <div class="hobby-item">
+            <h3>Culinária</h3>
+            <div class="image-container">
+                <img src="culinaria.jpg" alt="Culinária">
+            </div>
+        </div>
+        <div class="hobby-item">
+            <h3>Musculação</h3>
+            <div class="image-container">
+                <img src="musculacao.jpg" alt="Musculação">
+            </div>
+        </div>
+        <div class="hobby-item">
+            <h3>Arquitetura</h3>
+            <div class="image-container">
+                <img src="arquitetura.jpg" alt="Arquitetura">
+            </div>
+        </div>
+        <div class="hobby-item">
+            <h3>Filmes</h3>
+            <div class="image-container">
+                <img src="cinema.jpg" alt="Filmes">
+            </div>
+        </div>
+        <div class="hobby-item">
+            <h3>Churrasco</h3>
+            <div class="image-container">
+                <img src="churrasco.jpg" alt="Churrasco">
+            </div>
+        </div>
+    </div>    
+</div>
+
+</div>
+
+</body>
+</html>
